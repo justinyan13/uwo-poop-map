@@ -1,6 +1,6 @@
 #map {
-  width: 90%;
-  height: 90%;
+  width: auto;
+  height: 100%;
 }
 .custom .leaflet-popup-tip,
 .custom .leaflet-popup-content-wrapper {
