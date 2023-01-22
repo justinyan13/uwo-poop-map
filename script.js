@@ -8,7 +8,7 @@ var map = L.map('map',{
   }).addTo(map);
 
   var poopIcon = L.icon({
-    iconUrl: 'https://cdn-icons-png.flaticon.com/512/4951/4951989.png',
+    iconUrl: 'https://www.svgrepo.com/show/398061/pile-of-poo.svg',
     iconSize: [38, 95], // size of the icon
     });
 
