@@ -1,10 +1,10 @@
-jQuery(document).ready(main)
-
-function main() {
-  var map = L.map('map', {}).setView([49.5, 16], 14);
-
-  L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 16,
-    atribution: 'Map data &copy; OSM.org'
+var map = L.map('map',{
+  center: [43.64701, -79.39425],
+  zoom: 15
+  });
+  
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
-}
+
+
