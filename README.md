@@ -1,0 +1,1 @@
+Leaflet map with navbar and sidebar based on https://github.com/bmcbride/bootleaf
