@@ -25,3 +25,5 @@ var customOptions = {
 var marker = L.marker([43.004566832424494, -81.27834767566313], { icon: poopIcon })
   .bindPopup(customPopup, customOptions)
   .addTo(map);
+
+var marker2 = L.marker([43.004566832424494, -81.27834767566313], { icon: poopIcon })
