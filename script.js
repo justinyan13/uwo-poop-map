@@ -22,8 +22,24 @@ var customOptions = {
   className: 'custom',
 };
 
-var marker = L.marker([43.004566832424494, -81.27834767566313], { icon: poopIcon })
+var marker = L.marker([43.004566832424494, -81.27834767566313], {
+  icon: poopIcon,
+})
   .bindPopup(customPopup, customOptions)
   .addTo(map);
 
-var marker2 = L.marker([43.004566832424494, -81.27834767566313], { icon: poopIcon })
+// spencer engineering marker
+var customPopupEngineering =
+  "Engineering 2nd Floor ⭐⭐⭐⭐<br><img src='https://giphy.com/embed/bWM8K7vMziAJavYko6' alt='maptime logo gif' width='350px'/>";
+
+var customOptionsEngineering = {
+  maxWidth: '500',
+  className: 'custom',
+};
+
+var marker2 = L.marker([43.00559199077692, -81.27611799436883], {
+  icon: poopIcon,
+})
+  .bindPopup(customPopupEngineering, customOptionsEngineering)
+  .addTo(map);
+;
