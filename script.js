@@ -12,6 +12,6 @@ var map = L.map('map',{
     iconSize: [38, 95], // size of the icon
     });
 
-var marker = L.marker([43.64701, -79.39425], {icon: poopIcon}).addTo(map);
+var marker = L.marker([43.64701, -79.39425], {icon: poopIcon}).bindPopup('Great Shit Spot!').addTo(map);
 
 
