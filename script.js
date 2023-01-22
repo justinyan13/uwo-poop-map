@@ -36,7 +36,7 @@ var customOptionsEngineering = {
   maxWidth: '500',
   className: 'custom',
 };
-
+// TODO ensure that once marker is clicked the page gets centered on the marker
 var marker2 = L.marker([43.00559199077692, -81.27611799436883], {
   icon: poopIcon,
 })
