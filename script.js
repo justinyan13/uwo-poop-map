@@ -30,7 +30,7 @@ var marker = L.marker([43.004566832424494, -81.27834767566313], {
 
 // spencer engineering marker
 var customPopupEngineering =
-  "Engineering 2nd Floor ⭐⭐⭐⭐<br><img src='https://giphy.com/embed/bWM8K7vMziAJavYko6' alt='maptime logo gif' width='350px'/>";
+  "Engineering 2nd Floor ⭐⭐⭐⭐<br><img src='https://media2.giphy.com/media/bWM8K7vMziAJavYko6/giphy.gif?cid=790b7611ac60d85426f74f957e31de12af22ff9fbd7415dc&rid=giphy.gif&ct=g' alt='maptime logo gif' width='350px'/>";
 
 var customOptionsEngineering = {
   maxWidth: '500',
