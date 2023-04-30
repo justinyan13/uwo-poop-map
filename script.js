@@ -15,7 +15,7 @@ var poopIcon = L.icon({
 });
 
 var customPopup =
-  "Bill's Favorite Sona!<br><img src='https://media3.giphy.com/media/17C41UvchStTkd92UQ/giphy.gif?cid=790b76113bd14c764941c46c1d72d451d49057dc8e5bdce3&rid=giphy.gif&ct=g' alt='maptime logo gif' width='350px'/>";
+  "Ivey Basement: SONA ⭐⭐⭐⭐⭐!<br><img src='https://media3.giphy.com/media/17C41UvchStTkd92UQ/giphy.gif?cid=790b76113bd14c764941c46c1d72d451d49057dc8e5bdce3&rid=giphy.gif&ct=g' alt='maptime logo gif' width='350px'/>";
 
 var customOptions = {
   maxWidth: '500',
